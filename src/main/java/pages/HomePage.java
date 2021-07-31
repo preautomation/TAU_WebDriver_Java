@@ -29,4 +29,9 @@ public class HomePage {
         clickLinkofExample("Forgot Password");
         return new ForgotPasswordlinkPage(driver);
     }
+
+    public HoversPage clickHovers () {
+        clickLinkofExample("Hovers");
+        return new HoversPage(driver);
+    }
 }
